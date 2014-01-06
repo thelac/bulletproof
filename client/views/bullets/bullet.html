@@ -1,0 +1,14 @@
+<template name="bullet"> 
+	<div class="bullet">
+		<li>
+			<div class="bullet-text" id="{{_id}}" contenteditable> 
+				{{text}} 
+			</div>
+			<ul>
+				{{#each children}} 
+					{{> bullet}}
+				{{/each}}
+			</ul>
+		</li>
+	</div> 
+</template>

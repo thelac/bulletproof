@@ -5,10 +5,10 @@
 
 standard-app-packages
 preserve-inputs
-bootstrap
 stylus
 iron-router
 spin
 accounts-password
 accounts-twitter
 accounts-ui
+bootstrap
